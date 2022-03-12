@@ -1,0 +1,6 @@
+vamos a crear una aplicacion en java para generar contraseñas
+random pero al mismo tiempo para logearse vamos a crear una
+pagina web donde crear un correo para uso delicado 
+
+Primero crear un form en html validarlo con php 
+

@@ -1,0 +1,45 @@
+.navegation-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navegation-principal a {
+  text-decoration: none;
+  color:#0bf8b1;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.navegation-principal a:hover {
+  color: #00dad5;
+}
+.nav-bg {
+  background-color: #0b92e6;
+}
+
+.texto {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tabla{
+  width: 20rem;
+  background: #2de6ff;
+  margin-left: 34rem;
+  margin-top: 5rem;
+  animation-name: Brandon;
+  animation-duration:100s;
+  position: relative;
+}
+
+.tabla th{
+  animation-name: Brandon;
+  animation-duration:4s;
+  position: relative;
+}
+
+@keyframes Brandon {
+  20% {background: #ff0095; right: 50;top:-50px;}
+}

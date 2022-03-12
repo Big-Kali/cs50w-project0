@@ -1,0 +1,72 @@
+.nav {
+  background-color: rgb(173, 78, 78);
+  height: 11cm;
+  width: 12cm;
+  border-radius: 5px;
+
+  margin-left: 12cm;
+  margin-top: 3rem;
+}
+
+.nav-in {
+  margin-left: 3cm;
+  margin-top: 0cm;
+}
+
+input[type="text"],
+select {
+  outline: none;
+  text-decoration: #e2e2e2;
+  margin: 0.5rem;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  border-color: transparent;
+}
+input[type="submit"],
+select {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+input[type="email"],
+select {
+  outline: none;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  border-color: transparent;
+}
+
+body {
+  background-image: url(../project0/imagenes/apprendre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  margin-left: 11rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icons {
+  
+  height: 2rem;
+  width: 2rem;
+  margin: auto;
+}
+
+@media (max-width:  812px ){
+  .nav{
+    margin-left: 0.5rem;
+    
+   
+  }
+     
+}
+
+@media (max-width: 375px){
+body{
+  height: 812px;
+}
+}

@@ -1,0 +1,37 @@
+.navegation-principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navegation-principal a {
+  text-decoration: none;
+  color: #00ffff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+div nav a:hover {
+  color: #d99081;
+}
+
+.nav-bg {
+  background-color: #0376fa;
+}
+
+div {
+  background-color: #2ba2c8;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style4.css.map */
